@@ -1,0 +1,27 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Environment Variables
+.env
+
+# Project Data (Avoid checking in large PDFs or local databases)
+
+
+data/chroma_db/
+data/archive_memory/
+
+# Generated Output
+newsletter_*.html
+
+# IDE/System Files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
